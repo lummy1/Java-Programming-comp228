@@ -15,5 +15,7 @@ public class Outer {
     public static void main(String[] args) {
         Outer.Nested_Demo nested = new Outer.Nested_Demo();
         nested.my_method();
+
+        
     }
 }
