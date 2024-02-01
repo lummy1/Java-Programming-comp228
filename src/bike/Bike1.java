@@ -1,6 +1,6 @@
 package bike;
 
-public class Honda extends Bike {
+public final class Bike1 extends Bike {
     public void run() {
         System.out.println("bike running");
     }
