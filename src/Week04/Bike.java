@@ -1,4 +1,4 @@
-package bike;
+package Week04;
 
 // public final class Bike {
 public class Bike {

@@ -1,4 +1,4 @@
-package bike;
+package Week04;
 
 public class Bike10 {
     final int speedLimit;

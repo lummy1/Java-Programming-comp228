@@ -1,4 +1,4 @@
-package bike;
+package Week04;
 
 public class Outer {
     public void outerMethod() {
@@ -16,6 +16,7 @@ public class Outer {
         Outer.Nested_Demo nested = new Outer.Nested_Demo();
         nested.my_method();
 
-        
+        Outer outer = new Outer();
+        outer.outerMethod();
     }
 }
