@@ -1,5 +1,7 @@
 // Person class, the parent class
-package Week05;
+package Week05.CTI;
+
+import Week05.Professor;
 
 // PersonTest class, the driver class
 public class Person {

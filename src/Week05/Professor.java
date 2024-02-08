@@ -1,5 +1,7 @@
 package Week05;
 
+import Week05.CTI.Person;
+
 // Professor class, the inherited class
 
 public class Professor extends Person {
