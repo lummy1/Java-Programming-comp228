@@ -1,16 +1,14 @@
 package Week04;
 
-public class Bike10 {
-    final int speedLimit;
-    // speedLimit = 100; // The final field Bike10.speedLimit cannot be assigned
+class Bike10 {
+    final int speedlimit; // blank final variable
 
     Bike10() {
-        speedLimit = 70;
-        System.out.println(speedLimit);
+        speedlimit = 70;
+        System.out.println("\nThe speed limit is " + speedlimit + ".");
     }
 
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         Bike10 myBike = new Bike10();
-        System.out.println(myBike);
     }
 }
