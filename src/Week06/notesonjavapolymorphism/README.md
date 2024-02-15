@@ -1,4 +1,3 @@
-```markdown
 # Week 6: Java Polymorphism
 
 *Note: If you want to listen to the narration of the text, please download the document, make it editable, highlight any portion of the text, then click on the speak icon located to the right side of the Repeat Typing Item (redo) on the left side of the title bar.*
@@ -65,6 +64,7 @@ public class Animal {
         System.out.println("Animal is making a sound");
     }
 }
+```
 
 **Horse.java:**
 ```java
@@ -148,4 +148,3 @@ Mailing check to John Adams with salary 2400.0
 - [Google Search: Notes on Java Polymorphism](https://www.google.com/search?q=Notes+on+Java+Polymorphism&rlz=1C1CHBF_enCA900CA900&oq=Notes+&aqs=chrome.0.69i59j69i57j0l2j46l3j0.4798j0j8&sourceid=chrome&ie=UTF-8)
 - [GeeksforGeeks: Polymorphism in Java](https://www.geeksforgeeks.org/polymorphism-in-java/)
 - [BeginnersBook: Polymorphism in Java](https://beginnersbook.com/2013/03/polymorphism-in-java/)
-```
