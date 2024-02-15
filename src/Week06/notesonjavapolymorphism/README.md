@@ -101,15 +101,83 @@ Overridden methods in Java allow you to take advantage of polymorphism when desi
 **Employee.java:**
 ```java
 public class Employee {
-    // ... (content not provided in the example)
+
+    private String name;
+    private String address;
+    private int number;
+
+    // Constructor to initialize the Employee properties
+    public Employee(String name, String address, int number) {
+        System.out.println("Constructing an Employee");
+        this.name = name;
+        this.address = address;
+        this.number = number;
+    }
+
+    // Method to simulate mailing a check to the employee
+    public void mailCheck() {
+        System.out.println("Mailing a check to " + this.name + " " + this.address);
+    }
+
+    // Method to provide a string representation of the Employee
+    public String toString() {
+        return name + " " + address + " " + number;
+    }
+
+    // Getter method to retrieve the employee's name
+    public String getName() {
+        return name;
+    }
+
+    // Getter method to retrieve the employee's address
+    public String getAddress() {
+        return address;
+    }
+
+    // Setter method to update the employee's address
+    public void setAddress(String newAddress) {
+        address = newAddress;
+    }
+
+    // Getter method to retrieve the employee's number
+    public int getNumber() {
+        return number;
+    }
 }
+
 ```
 
 **Salary.java:**
 ```java
 public class Salary extends Employee {
-    // ... (content not provided in the example)
+    private double salary; // Annual salary
+
+    public Salary(String name, String address, int number, double salary) {
+        super(name, address, number);
+        setSalary(salary);
+    }
+
+    public void mailCheck() {
+        System.out.println("Within mailCheck of Salary class ");
+        System.out.println("Mailing check to " + getName() + " with salary " + salary);
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public void setSalary(double newSalary) {
+        if (newSalary >= 0.0) {
+            salary = newSalary;
+        }
+    }
+
+    public double computePay() {
+        System.out.println("Computing salary pay for " + getName());
+        return salary / 52;
+    }
 }
+
 ```
 
 **VirtualDemo.java:**
@@ -124,6 +192,7 @@ public class VirtualDemo {
         e.mailCheck();
     }
 }
+
 ```
 
 Output:
