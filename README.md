@@ -11,7 +11,7 @@
 
 ## Week 3
 
-- In-Class Exercises: Scope, 
+- In-Class Exercises: Scope, MethodPrac1, MethodForms, MethodOlPrac, PassArray2
 
 ## Week 4
 
