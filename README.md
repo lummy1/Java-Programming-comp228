@@ -2,7 +2,7 @@
 
 ## Week 1
 
-- In-Class Exercises: [Types](Types), [Fields](Fields), [Methods](Methods), [Constructors](Constructors)
+- In-Class Exercises: Addition
 - Labs: [Car](https://github.com/ttran375/comp123-lab2), [Date](https://github.com/ttran375/comp123-lab3)
 
 ## Week 2
