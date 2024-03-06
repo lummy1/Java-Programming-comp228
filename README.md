@@ -3,7 +3,6 @@
 ## Week 1
 
 - In-Class Exercises: Addition
-- Labs: 
 
 ## Week 2
 
@@ -30,4 +29,4 @@
 
 ## Week 7
 
-- Test: 
+- Test: Grocery Store
