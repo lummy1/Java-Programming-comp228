@@ -15,12 +15,12 @@
 
 ## Week 4
 
-- In-Class Exercises:
+- In-Class Exercises: Bike, Lesson4Examples
 - Labs: Lab 2
 
 ## Week 5
 
-- In-Class Exercises:
+- In-Class Exercises: Person, Lesson5Examples
 
 ## Week 6
 
