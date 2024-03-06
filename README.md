@@ -11,7 +11,7 @@
 
 ## Week 3
 
-- In-Class Exercises: Scope, MethodPrac1, MethodForms, MethodOlPrac, PassArray2, MathTest
+- In-Class Exercises: Scope, MethodPrac1, MethodForms, MethodOlPrac, PassArray2, MathTest, Question, GenerateRandomNumbers1, MathTest, PassArray, Craps, RandomIntegers
 
 ## Week 4
 
