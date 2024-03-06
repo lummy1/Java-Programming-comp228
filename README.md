@@ -2,7 +2,7 @@
 
 ## Week 1
 
-- In-Class Exercises: 
+- In-Class Exercises: Addition
 
 ## Week 2
 
@@ -11,7 +11,7 @@
 
 ## Week 3
 
-- In-Class Exercises:
+- In-Class Exercises: Scope, 
 
 ## Week 4
 
