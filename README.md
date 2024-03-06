@@ -2,11 +2,11 @@
 
 ## Week 1
 
-- In-Class Exercises: Addition
+- In-Class Exercises: 
 
 ## Week 2
 
-- In-Class Exercises:
+- In-Class Exercises: Addition
 - Labs: Lab 1
 
 ## Week 3
