@@ -6,12 +6,12 @@
 
 ## Week 2
 
-- In-Class Exercises: Addition
+- In-Class Exercises: Vehicle
 - Labs: Lab 1
 
 ## Week 3
 
-- In-Class Exercises: Scope, MethodPrac1, MethodForms, MethodOlPrac, PassArray2
+- In-Class Exercises: Scope, MethodPrac1, MethodForms, MethodOlPrac, PassArray2, MathTest
 
 ## Week 4
 
