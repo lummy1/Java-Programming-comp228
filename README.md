@@ -29,4 +29,4 @@
 
 ## Week 7
 
-- Test: [Grocery Store](comp228-test1)
+- Test: Grocery Store
