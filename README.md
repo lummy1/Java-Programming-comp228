@@ -11,20 +11,20 @@
 
 ## Week 3
 
-- In-Class Exercises: Scope, Lesson3Examples
+- In-Class Exercises: Scope
 
 ## Week 4
 
-- In-Class Exercises: Bike, Lesson4Examples
+- In-Class Exercises: Bike
 - Labs: Lab 2
 
 ## Week 5
 
-- In-Class Exercises: Person, Lesson5Examples
+- In-Class Exercises: Person
 
 ## Week 6
 
-- In-Class Exercises: AbTest, Lesson6Examples
+- In-Class Exercises: AbTest
 - Labs: Lab 3
 
 ## Week 7
