@@ -25,8 +25,8 @@
 ## Week 6
 
 - In-Class Exercises: AbTest
-- Labs: Lab 3
 
 ## Week 7
 
 - Test: Grocery Store
+- Labs: Lab 3
