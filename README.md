@@ -1,5 +1,9 @@
 # Java Programming
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ttran375/comp228)
+
+[![Style Check](https://github.com/ttran375/comp228/actions/workflows/main.yml/badge.svg)](https://github.com/ttran375/comp228/actions/workflows/main.yml)
+
 ## Week 1
 
 - In-Class Exercises: [Addition](Module01)
@@ -29,7 +33,7 @@
 ## Week 7
 
 - Test: [Grocery Store](https://github.com/ttran375/comp228-test1)
-- Labs: [Lab 3](https://github.com/ttran375/comp228-lab3)
+- Labs: [Lab 3](https://github.com/ttran375/comp228)
 
 ## Week 8
 
