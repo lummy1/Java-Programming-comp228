@@ -15,7 +15,7 @@
 
 ## Week 4
 
-- In-Class Exercises: Time1, Week 4: Demo 1, Week 4: Demo 2, Week 4: Demo 3, Week 4: Demo 4, Week 4: Demo 7, Week 4: Demo 8
+- In-Class Exercises: Bike, Bike1
 - Labs: Lab 2
 
 ## Week 5
