@@ -6,7 +6,7 @@ package Module1;
 
 import java.util.Scanner; // program uses class Scanner
 
-public class Addition
+public class Addition1
 
 {
 
