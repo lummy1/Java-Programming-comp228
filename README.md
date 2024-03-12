@@ -20,16 +20,16 @@
 
 ## Week 5
 
-- In-Class Exercises: My_calculation, CTI, OLT, ORT, InhTest
+- In-Class Exercises: [MyCalculation](Module05/MyCalculation), [CTI](Module05/CTI), [OLT](Module05/OLT), [ORT](Module05/ORT), [InhTest](Module05/InhTest)
 
 ## Week 6
 
-- In-Class Exercises: AbTest, TestInterface
+- In-Class Exercises: [AbTest](Module06/ExamplesOfAbstractClassAndInterface1), [TestInterface](Module06/ExamplesOfAbstractClassAndInterface2)
 
 ## Week 7
 
-- Test: Grocery Store
-- Labs: Lab 3
+- Test: [Grocery Store](https://github.com/ttran375/comp228-test1)
+- Labs: [Lab 3](https://github.com/ttran375/comp228-lab3)
 
 ## Week 8
 

@@ -1,4 +1,4 @@
-package Module05;
+package Module05.MyCalculation;
 
 public class My_calculation extends Calculation
 

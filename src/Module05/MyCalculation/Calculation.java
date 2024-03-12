@@ -1,4 +1,4 @@
-package Module05;
+package Module05.MyCalculation;
 
 //1. Simple Inheritance without custom constructor, the default constructor works just fine in parent and child class
 
