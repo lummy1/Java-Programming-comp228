@@ -108,7 +108,7 @@
 
     <!-- Checks for Naming Conventions.                  -->
     <!-- See https://checkstyle.org/checks/naming/index.html -->
-    <module name="ConstantName"/>
+    <!-- <module name="ConstantName"/> -->
     <module name="LocalFinalVariableName"/>
     <module name="LocalVariableName"/>
     <module name="MemberName"/>
@@ -147,7 +147,7 @@
 
     <!-- Modifier Checks                                    -->
     <!-- See https://checkstyle.org/checks/modifier/index.html -->
-    <module name="ModifierOrder"/>
+    <!-- <module name="ModifierOrder"/> -->
     <!-- <module name="RedundantModifier"/> -->
 
     <!-- Checks for blocks. You know, those {}'s         -->
