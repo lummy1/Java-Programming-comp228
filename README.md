@@ -15,18 +15,22 @@
 
 ## Week 4
 
-- In-Class Exercises: Bike, Bike1, Bike10, Outer, Job, TestPerson, Main, My_calculation
+- In-Class Exercises: Bike, Bike1, Bike10, Outer, Job, TestPerson, Main
 - Labs: Lab 2
 
 ## Week 5
 
-- In-Class Exercises: Person
+- In-Class Exercises: My_calculation, CTI, OLT, ORT, InhTest
 
 ## Week 6
 
-- In-Class Exercises: AbTest
+- In-Class Exercises: AbTest, TestInterface
 
 ## Week 7
 
 - Test: Grocery Store
 - Labs: Lab 3
+
+## Week 8
+
+## Week 9
