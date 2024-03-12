@@ -6,7 +6,7 @@
 
 ## Week 2
 
-- In-Class Exercises: Vehicle
+- In-Class Exercises: Addition, Vehicle
 - Labs: Lab 1
 
 ## Week 3

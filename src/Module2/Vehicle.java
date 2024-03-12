@@ -1,4 +1,4 @@
-package Module1;
+package Module2;
 
 public class Vehicle
 

@@ -1,8 +1,10 @@
 package Module1;
 
-// Fig. 2.7: Addition.java
+//Week1Demo1
 
-// Addition program that displays the sum of two numbers.
+//Fig. 2.7: Addition.java
+
+//Addition program that displays the sum of two numbers.
 
 import java.util.Scanner; // program uses class Scanner
 
