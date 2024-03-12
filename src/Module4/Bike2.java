@@ -8,30 +8,26 @@ public class Bike2
 
 {
 
-public final void run()
+    public final void run()
 
-{
+    {
 
-System.out.println("running");
+        System.out.println("running");
 
-}
+    }
 
+    public static void main(String args[])
 
+    {
 
+        Bike2 bike = new Bike2();
 
-public static void main(String args[])
+        bike.run();
 
-{
+        Honda honda = new Honda();
 
-Bike2 bike = new Bike2();
+        // honda.run();
 
-bike.run();
-
-Honda honda= new Honda();
-
-// honda.run();
-
-}
+    }
 
 }
-
