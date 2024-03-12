@@ -1,28 +1,21 @@
-//derived class with constructor
-
 package CTI;
+
+//Derived driver class
 
 class Derived extends Base
 
 {
-
     String name;
 
-    public Derived()
+    public Derived(int age, String name)
 
     {
 
-        System.out.println("Derived class constructor called.");
-
-    }
-
-    public Derived(String name) // overloaded constructor
-
-    {
+        super(age);
 
         this.name = name;
 
-        System.out.println("Derived class overloaded constructor called.");
+        System.out.println("Derived class constructor with parent constructor called.");
 
     }
 
@@ -32,7 +25,17 @@ class Derived extends Base
 
     {
 
-        return "\nName: " + name;
+        return "\nname: " + name + "\nAge: " + age;
+
+    }
+
+    public static void main(String[] args)
+
+    {
+
+        Derived myDerived = new Derived(33, "Syed Yamin");
+
+        System.out.println(myDerived);
 
     }
 
