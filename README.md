@@ -33,7 +33,7 @@
 ## Week 7
 
 - Test: [Grocery Store](https://github.com/ttran375/comp228-test1)
-- Labs: [Lab 3](https://github.com/ttran375/comp228)
+- Labs: [Lab 3](https://github.com/ttran375/comp228-lab3)
 
 ## Week 8
 
