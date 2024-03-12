@@ -116,7 +116,7 @@
     <!-- <module name="PackageName"/> -->
     <module name="ParameterName"/>
     <module name="StaticVariableName"/>
-    <module name="TypeName"/>
+    <!-- <module name="TypeName"/> -->
 
     <!-- Checks for imports                              -->
     <!-- See https://checkstyle.org/checks/imports/index.html -->
@@ -137,9 +137,9 @@
     <module name="EmptyForIteratorPad"/>
     <module name="GenericWhitespace"/>
     <module name="MethodParamPad"/>
-    <module name="NoWhitespaceAfter"/>
+    <!-- <module name="NoWhitespaceAfter"/> -->
     <module name="NoWhitespaceBefore"/>
-    <module name="OperatorWrap"/>
+    <!-- <module name="OperatorWrap"/> -->
     <module name="ParenPad"/>
     <module name="TypecastParenPad"/>
     <!-- <module name="WhitespaceAfter"/> -->
@@ -148,29 +148,29 @@
     <!-- Modifier Checks                                    -->
     <!-- See https://checkstyle.org/checks/modifier/index.html -->
     <module name="ModifierOrder"/>
-    <module name="RedundantModifier"/>
+    <!-- <module name="RedundantModifier"/> -->
 
     <!-- Checks for blocks. You know, those {}'s         -->
     <!-- See https://checkstyle.org/checks/blocks/index.html -->
     <module name="AvoidNestedBlocks"/>
     <module name="EmptyBlock"/>
     <!-- <module name="LeftCurly"/> -->
-    <module name="NeedBraces"/>
+    <!-- <module name="NeedBraces"/> -->
     <module name="RightCurly"/>
 
     <!-- Checks for common coding problems               -->
     <!-- See https://checkstyle.org/checks/coding/index.html -->
     <module name="EmptyStatement"/>
     <module name="EqualsHashCode"/>
-    <module name="HiddenField" >
+    <!-- <module name="HiddenField" >
       <property name="ignoreSetter" value="true" />
       <property name="ignoreConstructorParameter" value="true" />
-    </module>
+    </module> -->
     <module name="IllegalInstantiation"/>
     <module name="InnerAssignment"/>
     <!-- <module name="MagicNumber"/> -->
     <module name="MissingSwitchDefault"/>
-    <module name="MultipleVariableDeclarations"/>
+    <!-- <module name="MultipleVariableDeclarations"/> -->
     <module name="SimplifyBooleanExpression"/>
     <module name="SimplifyBooleanReturn"/>
 
@@ -180,11 +180,11 @@
     <module name="FinalClass"/>
     <!-- <module name="HideUtilityClassConstructor"/> -->
     <!-- <module name="InterfaceIsType"/> -->
-    <module name="VisibilityModifier"/>
+    <!-- <module name="VisibilityModifier"/> -->
 
     <!-- Miscellaneous other checks.                   -->
     <!-- See https://checkstyle.org/checks/misc/index.html -->
-    <module name="ArrayTypeStyle"/>
+    <!-- <module name="ArrayTypeStyle"/> -->
     <!-- <module name="FinalParameters"/> -->
     <module name="TodoComment"/>
     <module name="UpperEll"/>
