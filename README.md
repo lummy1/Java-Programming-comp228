@@ -6,29 +6,29 @@
 
 ## Week 1
 
-- In-Class Exercises: [Addition](Module01)
+- In-Class Exercises: [Addition](src/Module01)
 
 ## Week 2
 
-- In-Class Exercises: [Addition, Vehicle](Module02)
+- In-Class Exercises: [Addition, Vehicle](src/Module02)
 - Labs: Lab 1
 
 ## Week 3
 
-- In-Class Exercises: [Scope](Module03/Week3FinalDemos1), [MethodPrac1](Module03/Week3FinalDemos3), [MethodForms](Module03/Week3FinalDemos4), [MethodOlPrac, PassArray2](Module03/Week3FinalDemos5)
+- In-Class Exercises: [Scope](src/Module03/Week3FinalDemos1), [MethodPrac1](src/Module03/Week3FinalDemos3), [MethodForms](src/Module03/Week3FinalDemos4), [MethodOlPrac, PassArray2](src/Module03/Week3FinalDemos5)
 
 ## Week 4
 
-- In-Class Exercises: [Bike](Module04/Week4ClassDemos1), [Bike](Module04/Week4ClassDemos2), [Bike1](Module04/Week4ClassDemos3), [Bike10](Module04/Week4ClassDemos10), [Outer](Module04/Week4ClassDemos6), [TestPerson](Module04/Week4ClassDemos7), [Main](Module04/Week4ClassDemos8)
+- In-Class Exercises: [Bike](src/Module04/Week4ClassDemos1), [Bike](src/Module04/Week4ClassDemos2), [Bike1](src/Module04/Week4ClassDemos3), [Bike10](src/Module04/Week4ClassDemos10), [Outer](src/Module04/Week4ClassDemos6), [TestPerson](src/Module04/Week4ClassDemos7), [Main](src/Module04/Week4ClassDemos8)
 - Labs: Lab 2
 
 ## Week 5
 
-- In-Class Exercises: [MyCalculation](Module05/MyCalculation), [CTI](Module05/CTI), [OLT](Module05/OLT), [ORT](Module05/ORT), [InhTest](Module05/InhTest)
+- In-Class Exercises: [MyCalculation](src/Module05/MyCalculation), [CTI](src/Module05/CTI), [OLT](src/Module05/OLT), [ORT](src/Module05/ORT), [InhTest](src/Module05/InhTest)
 
 ## Week 6
 
-- In-Class Exercises: [AbTest](Module06/ExamplesOfAbstractClassAndInterface1), [TestInterface](Module06/ExamplesOfAbstractClassAndInterface2)
+- In-Class Exercises: [AbTest](src/Module06/ExamplesOfAbstractClassAndInterface1), [TestInterface](src/Module06/ExamplesOfAbstractClassAndInterface2)
 
 ## Week 7
 
