@@ -11,7 +11,7 @@
 ## Week 2
 
 - In-Class Exercises: [Addition, Vehicle](src/Module02)
-- Labs: Lab 1
+- Labs: [Lab 1](https://github.com/ttran375/comp228-lab1)
 
 ## Week 3
 
@@ -19,8 +19,8 @@
 
 ## Week 4
 
-- In-Class Exercises: [Bike](src/Module04/Week4ClassDemos1), [Bike](src/Module04/Week4ClassDemos2), [Bike1](src/Module04/Week4ClassDemos3), [Bike10](src/Module04/Week4ClassDemos10), [Outer](src/Module04/Week4ClassDemos6), [TestPerson](src/Module04/Week4ClassDemos7), [Main](src/Module04/Week4ClassDemos8)
-- Labs: Lab 2
+- In-Class Exercises: [Bike](src/Module04/Week4ClassDemos1), [Bike](src/Module04/Week4ClassDemos2), [Bike1](src/Module04/Week4ClassDemos3), [Bike10](src/Module04/Week4ClassDemos4), [Outer](src/Module04/Week4ClassDemos6), [TestPerson](src/Module04/Week4ClassDemos7), [Main](src/Module04/Week4ClassDemos8)
+- Labs: [Lab 2](https://github.com/ttran375/comp228-lab2)
 
 ## Week 5
 
