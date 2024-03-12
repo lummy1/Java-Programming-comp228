@@ -15,7 +15,7 @@
 
 ## Week 4
 
-- In-Class Exercises: Bike, Bike1
+- In-Class Exercises: Bike, Bike1, Bike10, Outer, Job, TestPerson, Main, My_calculation
 - Labs: Lab 2
 
 ## Week 5
