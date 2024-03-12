@@ -7,6 +7,18 @@ class Derived extends Base
 {
     String name;
 
+    public Derived() {
+        super(0); // or another default age
+        this.name = "";
+        System.out.println("Derived class default constructor with parent constructor called.");
+    }
+
+    public Derived(String name) {
+        super(0); // or another default age
+        this.name = name;
+        System.out.println("Derived class constructor with one parameter (name) with parent constructor called.");
+    }
+
     public Derived(int age, String name)
 
     {
