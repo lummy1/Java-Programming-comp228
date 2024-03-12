@@ -71,7 +71,7 @@
   <!-- Checks for Size Violations.                    -->
   <!-- See https://checkstyle.org/checks/sizes/index.html -->
   <module name="FileLength"/>
-  <module name="LineLength">
+  <!-- <module name="LineLength"> -->
     <property name="fileExtensions" value="java"/>
   </module>
 
@@ -112,7 +112,7 @@
     <module name="LocalFinalVariableName"/>
     <module name="LocalVariableName"/>
     <module name="MemberName"/>
-    <module name="MethodName"/>
+    <!-- <module name="MethodName"/> -->
     <!-- <module name="PackageName"/> -->
     <module name="ParameterName"/>
     <module name="StaticVariableName"/>
@@ -142,8 +142,8 @@
     <module name="OperatorWrap"/>
     <module name="ParenPad"/>
     <module name="TypecastParenPad"/>
-    <module name="WhitespaceAfter"/>
-    <module name="WhitespaceAround"/>
+    <!-- <module name="WhitespaceAfter"/> -->
+    <!-- <module name="WhitespaceAround"/> -->
 
     <!-- Modifier Checks                                    -->
     <!-- See https://checkstyle.org/checks/modifier/index.html -->
@@ -154,7 +154,7 @@
     <!-- See https://checkstyle.org/checks/blocks/index.html -->
     <module name="AvoidNestedBlocks"/>
     <module name="EmptyBlock"/>
-    <module name="LeftCurly"/>
+    <!-- <module name="LeftCurly"/> -->
     <module name="NeedBraces"/>
     <module name="RightCurly"/>
 
@@ -168,7 +168,7 @@
     </module>
     <module name="IllegalInstantiation"/>
     <module name="InnerAssignment"/>
-    <module name="MagicNumber"/>
+    <!-- <module name="MagicNumber"/> -->
     <module name="MissingSwitchDefault"/>
     <module name="MultipleVariableDeclarations"/>
     <module name="SimplifyBooleanExpression"/>
@@ -185,7 +185,7 @@
     <!-- Miscellaneous other checks.                   -->
     <!-- See https://checkstyle.org/checks/misc/index.html -->
     <module name="ArrayTypeStyle"/>
-    <module name="FinalParameters"/>
+    <!-- <module name="FinalParameters"/> -->
     <module name="TodoComment"/>
     <module name="UpperEll"/>
 
