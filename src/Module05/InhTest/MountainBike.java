@@ -1,4 +1,4 @@
-package InhTest;
+package Module05.InhTest;
 
 class MountainBike extends Bicycle
 

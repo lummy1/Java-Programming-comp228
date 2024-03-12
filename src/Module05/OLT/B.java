@@ -1,4 +1,4 @@
-package OLT;
+package Module05.OLT;
 
 public class B extends A
 

@@ -1,6 +1,6 @@
 //inheritance example a complete example
 
-package InhTest;
+package Module05.InhTest;
 
 public class Bicycle
 
