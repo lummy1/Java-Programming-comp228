@@ -38,3 +38,5 @@
 ## Week 8
 
 ## Week 9
+
+- In-Class Exercises: MyJavaFx200, FlowPaneDemo, ShowGridPane112, ShowBorderPane112, ShowCircle, ShowCircle2
