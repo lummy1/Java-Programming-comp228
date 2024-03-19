@@ -40,3 +40,8 @@
 ## Week 9
 
 - In-Class Exercises: [MyJavaFx200](src/Module07/javafx1), [FlowPaneDemo](src/Module07/flowpanedemo), [ShowGridPane112, ShowBorderPane112, ShowCircle, ShowCircle2](src/Module07/application)
+
+## Week 10
+
+- In-Class Exercises: [HandleClassic, Main, LambdaWithJavaFxTest, FxDrag, EventFiltersExample](src/Module07/eventhandling)
+- Labs: Lab 4
