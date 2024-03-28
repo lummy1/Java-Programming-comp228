@@ -76,3 +76,80 @@ The second step is done by using the getXXX() methods of the JDBC rset object. H
 The following code demonstrates the above steps:
 
 Here the 1, 2, 3, and 4 in rset.getInt(), rset.getString(), getFloat(), and getInt() respectively denote the position of the columns in the SELECT statement, that is, the first column empno, second column ename, third column sal, and fourth column deptno of the SELECT statement respectively.
+
+Exception Handling in JDBC
+Like in PL/SQL programs, exceptions do occur in JDBC programs. Notice how the NO_DATA_FOUND exception was simulated in the earlier section "Processing the Results of a Database Query That Returns a Single Row."
+
+Exceptions in JDBC are usually of two types:
+
+Exceptions occurring in the JDBC driver
+Exceptions occurring in the Oracle 8i database itself
+Just as PL/SQL provides for an implicit or explicit RAISE statement for an exception, Oracle JDBC programs have a throw statement that is used to inform that JDBC calls throw the SQL exceptions. This is shown below.
+
+
+throws SQLException
+
+This creates instances of the class java.sql.SQLException or a subclass of it.
+
+And, like in PL/SQL, SQL exceptions in JDBC have to be handled explicitly. Similar to PL/SQL exception handling sections, Java provides a try..catch section that can handle all exceptions including SQL exceptions. Handling an exception can basically include retrieving the error code, error text, the SQL state, and/or printing the error stack trace. The SQLException class provides methods for obtaining all of this information in case of error conditions.
+
+Retrieving Error Code, Error Text, and SQL State:
+
+There are the methods getErrorCode() and getMessage() similar to the functions SQLCODE and SQLERRM in PL/SQL. To retrieve the SQL state, there is the method getSQLState(). A brief description of these methods is given below:
+
+getErrorCode()
+This function returns the five-digit ORA number of the error in case of exceptions occurring in the JDBC driver as well as in the database.
+getMessage()
+This function returns the error message text in case of exceptions occurring in the JDBC driver. For exceptions occurring in the database, this function returns the error message text prefixed with the ORA number.
+getSQLState()
+This function returns the five digit code indicating the SQL state only for exceptions occurring in the database.
+The following code illustrates the use of exception handlers in JDBC:
+
+
+try {  }
+catch (SQLException e) { System.out.println("ERR: "+ e.getMessage())}
+
+We now show the QueryExample class of the earlier section with complete exception handlers built in it. The code is as follows:
+
+//Import JDBC package
+import java.sql.*;
+// Import Java package for File I/O
+import java.io.*;
+public class QueryExample {
+ public static void main (String[] args) {
+ int ret_code;
+ try {
+  //Load and register Oracle driver
+  DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
+ //Establish a connection
+ Connection conn =  DriverManager.getConnection("jdbc:oracle:thin:
+ @training:1521:Oracle", "oratest", "oratest");
+ //Create a Statement object
+ Statement sql_stmt = conn.createStatement();
+ //Create a ResultSet object, execute the query and return a
+ // resultset
+ ResultSet rset = sql_stmt.executeQuery("SELECT empno, ename, sal, 
+ deptno FROM emp ORDER BY ename");
+ //Process the resultset, retrieve data in each row, column by column
+ // and write to an operating system file
+String str = "";
+while (rset.next())
+ {
+ str += rset.getInt(1)+" "+ rset.getString(2)+" "+rset.getFloat(3)+
+ " "+rset.getInt(4)+"\n";
+ }
+ byte buf[] = str.getBytes();
+OutputStream fp = new FileOutputStream("query1.lst");
+fp.write(buf);
+fp.close();
+//Close the ResultSet and Statement
+ rset.close();
+ sql_stmt.close();
+ //Close the database connection
+ conn.close();
+} catch (SQLException e) {ret_code = e.getErrorCode(); 
+ System.err.println("Oracle Error: "+ ret_code + e.getMessage());}
+ catch (IOException e) {System.out.println("Java Error: "+ 
+ e.getMessage()); }
+ }
+}
