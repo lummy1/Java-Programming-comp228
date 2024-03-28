@@ -3,3 +3,37 @@ Import JDBC Packages:
 This is for making the JDBC API classes immediately available to the application program. The following import statement should be included in the program irrespective of the JDBC driver being used:
 
 import java,sql.*;                            
+
+Import JDBC Packages:
+
+This is for making the JDBC API classes immediately available to the application program. The following import statement should be included in the program irrespective of the JDBC driver being used:
+
+import java,sql.*;                            
+
+Additionally, depending on the features being used, Oracle-supplied JDBC packages might need to be imported. For example, the following packages might need to be imported while using the Oracle extensions to JDBC such as using advanced data types such as BLOB, and so on.	
+import oracle.jdbc.driver.*;
+import oracle.sql.*;                                                           
+Loading and Registering the JDBC Driver:
+
+This is for establishing a communication between the JDBC program and the Oracle database. This is done by using the static registerDriver() method of the DriverManager class of the JDBC API. The following line of code does this job:
+
+DriverManager.registerDriver(new oracle.jdbc.driver.OracleDriver());
+Alternatively, the forName() method of the java.lang.Class class can be used to load and register the JDBC driver.
+
+However, the forName() method is valid for only JDK-compliant Java Virtual Machines and implicitly creates an instance of the Oracle driver, whereas the registerDriver() method does this explicitly.
+
+Class.forName("oracle.jdbc.driver.OracleDriver");                     
+Connecting to a Database:
+
+Once the required packages have been imported and the Oracle JDBC driver has been loaded and registered, a database connection must be established. This is done by using the getConnection() method of the DriverManager class. A call to this method creates an object instance of the java.sql.Connection class. The getConnection() requires three input parameters, namely, a connect string, a username, and a password. The connect string should specify the JDBC driver to be yes and the database instance to connect to.
+
+The getConnection() method is an overloaded method that takes
+
+Three parameters, one each for the URL, username, and password.
+Only one parameter for the database URL. In this case, the URL contains the username and password.
+The following lines of code illustrate using the getConnection() method:
+
+Connection conn = DriverManager.getConnection(URL, username, passwd);
+
+Connection conn = DriverManager.getConnection(URL);
+;
