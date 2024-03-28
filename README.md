@@ -45,3 +45,8 @@
 
 - In-Class Exercises: [HandleClassic, Main, LambdaWithJavaFxTest, FxDrag, EventFiltersExample](src/Module07/eventhandling)
 - Labs: Lab 4
+
+## Week 11
+
+- In-Class Exercises: QueryExample, 
+- Labs: Lab 4
