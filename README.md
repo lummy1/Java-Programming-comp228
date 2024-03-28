@@ -48,4 +48,4 @@
 
 ## Week 11
 
-- In-Class Exercises: Connection 
+- In-Class Exercises: [Connection](src/Module10/connection)
