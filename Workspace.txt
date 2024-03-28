@@ -37,3 +37,42 @@ Connection conn = DriverManager.getConnection(URL, username, passwd);
 
 Connection conn = DriverManager.getConnection(URL);
 ;
+
+Querying the Database:
+
+Querying the database involves two steps: first, creating a statement object to perform a query, and second, executing the query and returning a resultset.
+
+Creating a Statement Object:
+
+This is to instantiate objects that run the query against the database connected to. This is done by the createStatement() method of the conn Connection object created above. A call to this method creates an object instance of the Statement class. The following line of code illustrates this:
+
+Statement sql_stmt = conn.createStatement();                    
+Executing the Query and Returning a ResultSet:
+
+Once a Statement object has been constructed, the next step is to execute the query. This is done by using the executeQuery() method of the Statement object. A call to this method takes as parameter a SQL SELECT statement and returns a JDBC ResultSet object. The following line of code illustrates this using the sql_stmt object created above:
+
+ResultSet rset = sql_stmt.executeQuery
+      ("SELECT empno, ename, sal, deptno FROM emp    ORDER BY ename");
+Alternatively, the SQL statement can be placed in a string and then this string passed to the executeQuery() function. This is shown below.
+
+String sql = "SELECT empno, ename, sal, deptno FROM emp ORDER BY ename";
+ResultSet rset = sql_stmt.executeQuery(sql);
+Statement and ResultSet Objects:
+
+Statement and ResultSet objects open a corresponding cursor in the database for SELECT and other DML statements.
+
+The above statement executes the SELECT statement specified in between the double quotes and stores the resulting rows in an instance of the ResultSet object named rset.
+
+Processing the Results of a Database Query That Returns Multiple Rows
+
+Once the query has been executed, there are two steps to be carried out:
+
+Processing the output resultset to fetch the rows
+Retrieving the column values of the current row
+The first step is done using the next() method of the ResultSet object. A call to next() is executed in a loop to fetch the rows one row at a time, with each call to next() advancing the control to the next available row. The next() method returns the Boolean value true while rows are still available for fetching and returns false when all the rows have been fetched.
+
+The second step is done by using the getXXX() methods of the JDBC rset object. Here getXXX() corresponds to the getInt(), getString() etc with XXX being replaced by a Java datatype.
+
+The following code demonstrates the above steps:
+
+Here the 1, 2, 3, and 4 in rset.getInt(), rset.getString(), getFloat(), and getInt() respectively denote the position of the columns in the SELECT statement, that is, the first column empno, second column ename, third column sal, and fourth column deptno of the SELECT statement respectively.
