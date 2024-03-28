@@ -44,7 +44,7 @@
 ## Week 10
 
 - In-Class Exercises: [HandleClassic, Main, LambdaWithJavaFxTest, FxDrag, EventFiltersExample](src/Module07/eventhandling)
-- Labs: Lab 4
+- Labs: [Lab 4](https://github.com/ttran375/comp228-lab4)
 
 ## Week 11
 
