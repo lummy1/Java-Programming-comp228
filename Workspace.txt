@@ -1,0 +1,5 @@
+Import JDBC Packages:
+
+This is for making the JDBC API classes immediately available to the application program. The following import statement should be included in the program irrespective of the JDBC driver being used:
+
+import java,sql.*;                            
