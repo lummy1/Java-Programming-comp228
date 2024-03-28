@@ -48,5 +48,5 @@
 
 ## Week 11
 
-- In-Class Exercises: QueryExample, 
+- In-Class Exercises: Connection 
 - Labs: Lab 4
