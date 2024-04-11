@@ -63,5 +63,5 @@
 
 ## Week 14
 
-- In-Class Exercises: ArrL
+- In-Class Exercises: QueueExample, Test, GFG, AddElementsToHashtable, GFG
 - Labs: [Lab 5](https://github.com/ttran375/comp228-lab5), [Lab 6](https://github.com/ttran375/comp228-lab6)
