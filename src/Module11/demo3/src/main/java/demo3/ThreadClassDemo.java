@@ -1,4 +1,4 @@
-package lab4c_2017;
+package demo3;
 
 public class ThreadClassDemo {
     /**
@@ -47,7 +47,6 @@ class DisplayMessage implements Runnable {
     }
 }
 
-
 class GuessNumber extends Thread {
     private int number;
 
@@ -55,8 +54,15 @@ class GuessNumber extends Thread {
         this.number = number;
     }
 
-    @Override
     public void run() {
-        System.out.println("GuessNumber thread running with number: " + number);
+        int counter = 0;
+        int guess = 0;
+        do {
+            guess = (int) (Math.random() * 10 + 1);
+            System.out.println(this.getName() + " guesses " +
+                    guess);
+            counter++;
+        } while (guess != number);
+        System.out.println("*** Correct!!!" + this.getName() + " in" + counter + " guesses***");
     }
 }
