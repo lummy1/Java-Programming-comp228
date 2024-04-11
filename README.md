@@ -59,7 +59,7 @@
 
 ## Week 13
 
-- In-Class Exercises: [Demo 1](src/Module11/demo1), [Demo 2](src/Module11/mult2), [Demo 3](src/Module11/lab4c_2017), [Demo 4](src/Module11/demo4), [Demo 5](src/Module11/demo5), [Demo 6a](src/Module11/demo6a), [Demo 6b](src/Module11/demo6b), [Demo 7](src/Module11/prt), [Demo 8](src/Module11/demo8)
+- In-Class Exercises: [Demo 1](src/Module11/demo1), [Demo 2](src/Module11/mult2), [Demo 3](src/Module11/demo3), [Demo 4](src/Module11/demo4), [Demo 5](src/Module11/demo5), [Demo 6a](src/Module11/demo6a), [Demo 6b](src/Module11/demo6b), [Demo 7](src/Module11/prt), [Demo 8](src/Module11/demo8)
 
 ## Week 14
 
