@@ -43,9 +43,24 @@
 
 ## Week 10
 
-- In-Class Exercises: [HandleClassic, Main, LambdaWithJavaFxTest, FxDrag, EventFiltersExample](src/Module07/eventhandling)
+- In-Class Exercises: [HandleClassic, Main, LambdaWithJavaFxTest, FxDrag, EventFiltersExample](src/Module08/eventhandling)
 - Labs: [Lab 4](https://github.com/ttran375/comp228-lab4)
 
 ## Week 11
 
+- In-Class Exercises: [ExceptionHandlingDemo](src/Module09/ExceptionHandlingDemo)
+- Labs: [Lab 4](https://github.com/ttran375/comp228-lab4)
+
+
+## Week 12
+
+- In-Class Exercises: [Connection](src/Module10/connection)
+
+
+## Week 13
+
 - In-Class Exercises: [TestThread](src/Module11/runnabledemo), [TestThread](src/Module11/mult2), [ThreadClassDemo](src/Module11/lab4c_2017), [GuessNumber](src/Module11/demo3), [ThreadJoiningMethod](src/Module11/demo4), [ThJoMethodXXX](src/Module11/demo5), [ThJoMethodXXX](src/Module11/demo6a), [ThreadJoiningMethod](src/Module11/demo6b), [ThreadPriorityExample](src/Module11/prt), [PrintTask](src/Module11/demo8)
+
+## Week 14
+
+- In-Class Exercises: ArrL
