@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-class AddElementsToHashtable {
+class HashtableExample {
     public static void main(String args[]) {
         // No need to mention the
         // Generic type twice
