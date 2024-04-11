@@ -48,20 +48,17 @@
 
 ## Week 11
 
-- In-Class Exercises: [ExceptionHandlingDemo](src/Module09/ExceptionHandlingDemo)
-
-
+- In-Class Exercises: [Exception Handling](src/Module09/ExceptionHandlingDemo)
 
 ## Week 12
 
-- In-Class Exercises: [Connection](src/Module10/connection)
-
+- In-Class Exercises: [Database Connection](src/Module10/connection)
 
 ## Week 13
 
-- In-Class Exercises: [Demo 1](src/Module11/demo1), [Demo 2](src/Module11/mult2), [Demo 3](src/Module11/demo3), [Demo 4](src/Module11/demo4), [Demo 5](src/Module11/demo5), [Demo 6a](src/Module11/demo6a), [Demo 6b](src/Module11/demo6b), [Demo 7](src/Module11/prt), [Demo 8](src/Module11/demo8)
+- In-Class Exercises: [Multithreading 1](src/Module11/demo1), [Multithreading 2](src/Module11/mult2), [Multithreading 3](src/Module11/demo3), [Multithreading 4](src/Module11/demo4), [Multithreading 5](src/Module11/demo5), [Multithreading 6a](src/Module11/demo6a), [Multithreading 6b](src/Module11/demo6b), [Multithreading 7](src/Module11/prt), [Multithreading 8](src/Module11/demo8)
 
 ## Week 14
 
-- In-Class Exercises: [QueueExample](src/Week13/QueueExample), [StackExample](src/Week13/StackExample), [LinkedListExample](src/Week13/LinkedListExample), [HashTableExample](src/Week13/HashTableExample), [HashtableTranversal](src/Week13/QueueExample)
+- In-Class Exercises: [Queue](src/Week13/QueueExample), [Stack](src/Week13/StackExample), [Linked List](src/Week13/LinkedListExample), [Hash Table](src/Week13/HashTableExample), [Hash Table Tranversal](src/Week13/HashtableTranversal)
 - Labs: [Lab 5](https://github.com/ttran375/comp228-lab5), [Lab 6](https://github.com/ttran375/comp228-lab6)
