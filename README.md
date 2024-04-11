@@ -49,7 +49,7 @@
 ## Week 11
 
 - In-Class Exercises: [ExceptionHandlingDemo](src/Module09/ExceptionHandlingDemo)
-- Labs: [Lab 4](https://github.com/ttran375/comp228-lab4)
+
 
 
 ## Week 12
@@ -64,3 +64,4 @@
 ## Week 14
 
 - In-Class Exercises: ArrL
+- Labs: [Lab 5](https://github.com/ttran375/comp228-lab5), [Lab 6](https://github.com/ttran375/comp228-lab6)
