@@ -61,4 +61,6 @@
 ## Week 14
 
 - In-Class Exercises: [Queue](src/Week13/QueueExample), [Stack](src/Week13/StackExample), [Linked List](src/Week13/LinkedListExample), [Hash Table](src/Week13/HashTableExample), [Hash Table Tranversal](src/Week13/HashtableTranversal)
+
+- In-Class Exercises: [Queue](src/Week13/QueueExample), [Stack](src/Week13/StackExample), [Linked List](src/Week13/LinkedListExample), [Hash Table](src/Week13/HashTableExample), [Hash Table Tranversal](src/Week13/HashtableTranversal)
 - Labs: [Lab 5](https://github.com/ttran375/comp228-lab5), [Lab 6](https://github.com/ttran375/comp228-lab6)
