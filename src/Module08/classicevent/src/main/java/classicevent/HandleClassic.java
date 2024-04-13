@@ -2,7 +2,6 @@ package org.example.classicevent;
 
 //Event Handling: the classic way
 
-
 import javafx.application.Application;
 
 import javafx.event.ActionEvent;
@@ -21,17 +20,11 @@ import javafx.stage.Stage;
 
 import javax.swing.JOptionPane;
 
-
 import javax.swing.*;
-
 
 public class HandleClassic extends Application
 
 {
-
-
-
-
 
     @Override
 
@@ -39,7 +32,7 @@ public class HandleClassic extends Application
 
     {
 
-//hold two buttons in HBox
+        // hold two buttons in HBox
 
         HBox pane = new HBox(10);
 
@@ -51,7 +44,7 @@ public class HandleClassic extends Application
 
         OkHandlerClass handler1 = new OkHandlerClass();
 
-        btOk.setOnAction(handler1); //register btOk with handler1
+        btOk.setOnAction(handler1); // register btOk with handler1
 
         CancelHandlerClass handler2 = new CancelHandlerClass();
 
@@ -59,9 +52,7 @@ public class HandleClassic extends Application
 
         pane.getChildren().addAll(btOk, btCancel);
 
-
-
-//routine the create a scene and place it in a stage
+        // routine the create a scene and place it in a stage
 
         Scene scene = new Scene(pane);
 
@@ -70,7 +61,6 @@ public class HandleClassic extends Application
         primaryStage.setScene(scene);
 
         primaryStage.show();
-
 
     }
 
@@ -82,15 +72,12 @@ public class HandleClassic extends Application
 
     }
 
-
 }
 
+class OkHandlerClass implements EventHandler<ActionEvent>
 
-
-class OkHandlerClass implements EventHandler <ActionEvent>
-
-{ JFrame myFrame = new JFrame();
-
+{
+    JFrame myFrame = new JFrame();
 
     @Override
 
@@ -102,20 +89,15 @@ class OkHandlerClass implements EventHandler <ActionEvent>
 
         JOptionPane.showMessageDialog(myFrame, "OK Button Pressed.");
 
-
     }
 
 }
 
-
-
-
-class CancelHandlerClass implements EventHandler <ActionEvent>
+class CancelHandlerClass implements EventHandler<ActionEvent>
 
 {
 
     JFrame myFrame = new JFrame();
-
 
     @Override
 
