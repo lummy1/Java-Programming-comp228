@@ -19,16 +19,16 @@
 
 ## Week 4
 
-- In-Class Exercises: [Bike](src/Module04/Week4ClassDemos1), [Bike](src/Module04/Week4ClassDemos2), [Bike1](src/Module04/Week4ClassDemos3), [Bike10](src/Module04/Week4ClassDemos4), [Outer](src/Module04/Week4ClassDemos6), [TestPerson](src/Module04/Week4ClassDemos7), [Main](src/Module04/Week4ClassDemos8)
+- In-Class Exercises: [Java Classes In Depth](src/Module04)
 - Labs: [Lab 2](https://github.com/ttran375/comp228-lab2)
 
 ## Week 5
 
-- In-Class Exercises: [MyCalculation](src/Module05/MyCalculation), [CTI](src/Module05/CTI), [OLT](src/Module05/OLT), [ORT](src/Module05/ORT), [InhTest](src/Module05/InhTest)
+- In-Class Exercises: [Inheritance](src/Module05)
 
 ## Week 6
 
-- In-Class Exercises: [AbTest](src/Module06/ExamplesOfAbstractClassAndInterface1), [TestInterface](src/Module06/ExamplesOfAbstractClassAndInterface2)
+- In-Class Exercises: [Abstract Class and Interface](src/Module06)
 
 ## Week 7
 
@@ -39,11 +39,11 @@
 
 ## Week 9
 
-- In-Class Exercises: [JavaFx](src/Module07/javafx1), [FlowPane](src/Module07/flowpanedemo), GridPane, BorderPane, GUI, GUI with Property Binding
+- In-Class Exercises: [JavaFx](src/Module07)
 
 ## Week 10
 
-- In-Class Exercises: [Classic Event](src/Module08/classicevent), [Anonymous Event](src/Module08/anonymousevent), [Lambda Expression](src/Module08/lambdaexpression) , [Drag Drop](src/Module08/dragdrop), [Filter Event](src/Module08/filterevent)
+- In-Class Exercises: [JavaFx Events](src/Module08)
 - Labs: [Lab 4](https://github.com/ttran375/comp228-lab4)
 
 ## Week 11
@@ -56,9 +56,9 @@
 
 ## Week 13
 
-- In-Class Exercises: [Multithreading 1](src/Module11/demo1), [Multithreading 2](src/Module11/mult2), [Multithreading 3](src/Module11/demo3), [Multithreading 4](src/Module11/demo4), [Multithreading 5](src/Module11/demo5), [Multithreading 6a](src/Module11/demo6a), [Multithreading 6b](src/Module11/demo6b), [Multithreading 7](src/Module11/prt), [Multithreading 8](src/Module11/demo8)
+- In-Class Exercises: [Multithreading](src/Module11)
 
 ## Week 14
 
-- In-Class Exercises: [Collections](src/Week13/collections), [Queue](src/Week13/queueexample), [Stack](src/Week13/stackexample), [Linked List](src/Week13/linkedlistexample), [Hash Table](src/Week13/hashtableexample), [Hash Table Tranversal](src/Week13/hashtabletranversal)
+- In-Class Exercises: [Collections](src/Week13/collections), [Data Structure](src/Week13)
 - Labs: [Lab 5](https://github.com/ttran375/comp228-lab5), [Lab 6](https://github.com/ttran375/comp228-lab6)
