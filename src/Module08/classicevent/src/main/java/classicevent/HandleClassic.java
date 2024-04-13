@@ -1,4 +1,4 @@
-package org.example.eventhandling;
+package org.example.classicevent;
 
 //Event Handling: the classic way
 

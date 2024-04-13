@@ -43,7 +43,7 @@
 
 ## Week 10
 
-- In-Class Exercises: [HandleClassic, Main, LambdaWithJavaFxTest](src/Module08/eventhandling), FxDrag, EventFiltersExample
+- In-Class Exercises: [Classic Event, Anonymous Event, LambdaWithJavaFxTest](src/Module08/eventhandling), FxDrag, EventFiltersExample
 - Labs: [Lab 4](https://github.com/ttran375/comp228-lab4)
 
 ## Week 11
