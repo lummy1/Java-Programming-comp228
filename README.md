@@ -48,17 +48,18 @@
 
 ## Week 11
 
-- In-Class Exercises: [Exception Handling](src/Module09/ExceptionHandlingDemo)
+- In-Class Exercises: [Exception Handling](src/Module09)
 
 ## Week 12
 
-- In-Class Exercises: [Database Connection](src/Module10/connection)
+- In-Class Exercises: [Database Connection](src/Module10)
 
 ## Week 13
 
 - In-Class Exercises: [Multi Thread](src/Module11)
+- Labs: [Lab 5](https://github.com/ttran375/comp228-lab5)
 
 ## Week 14
 
-- In-Class Exercises: [Collections](src/Week13/collections), [Data Structure](src/Week13)
-- Labs: [Lab 5](https://github.com/ttran375/comp228-lab5), [Lab 6](https://github.com/ttran375/comp228-lab6)
+- In-Class Exercises: [Collections, Data Structure](src/Week13)
+- Labs: [Lab 6](https://github.com/ttran375/comp228-lab6)
