@@ -1,66 +1,250 @@
 package anonymousevent;
 
-//Event Handling: Lambda Expression
+//Mouse Event: Drag Drop
 
-import javafx.application.*;
+import javafx.application.Application;
 
-import javafx.beans.property.*;
+import javafx.event.EventHandler;
 
-import javafx.event.*;
+import javafx.scene.Scene;
 
-import javafx.scene.*;
+import javafx.scene.control.Label;
 
-import javafx.scene.control.*;
+import javafx.scene.control.TextArea;
 
-import javafx.scene.layout.*;
+import javafx.scene.control.TextField;
 
-import javafx.stage.*;
+import javafx.scene.input.MouseDragEvent;
 
-public class LambdaWithJavaFxTest extends Application
+import javafx.scene.input.MouseEvent;
+
+import javafx.scene.layout.GridPane;
+
+import javafx.scene.layout.VBox;
+
+import javafx.stage.Stage;
+
+public class FxDrag extends Application
 
 {
 
+    // Create the TextFields
+
+    TextField sourceFld = new TextField("This is the Source Text");
+
+    TextField targetFld = new TextField("Drag and drop the source text here");
+
+    // Create the LoggingArea
+
+    TextArea loggingArea = new TextArea("");
+
     @Override
 
-    public void start(Stage stage) throws Exception
+    public void start(Stage stage)
 
     {
 
-        BorderPane root = new BorderPane();
+        // Set the Size of the TextFields
 
-        ToggleButton button = new ToggleButton("Click");
+        sourceFld.setPrefSize(200, 20);
 
-        final StringProperty btnText = button.textProperty();
+        targetFld.setPrefSize(200, 20);
 
-        button.setOnAction((event) ->
+        // Create the Labels
 
-        { // lambda expression
+        Label sourceLbl = new Label("Source Node:");
 
-            ToggleButton source = (ToggleButton) event.getSource();
+        Label targetLbl = new Label("Target Node:");
 
-            if (source.isSelected()) {
+        // Create the GridPane
 
-                btnText.set("Clicked!");
+        GridPane pane = new GridPane();
 
-            } else {
+        pane.setHgap(5);
 
-                btnText.set("Click!");
+        pane.setVgap(20);
+
+        // Add the Labels and Fields to the Pane
+
+        pane.addRow(0, sourceLbl, sourceFld);
+
+        pane.addRow(1, targetLbl, targetFld);
+
+        // Add mouse event handlers for the source
+
+        sourceFld.setOnMousePressed(new EventHandler<MouseEvent>()
+
+        {
+
+            public void handle(MouseEvent event)
+
+            {
+
+                sourceFld.setMouseTransparent(true);
+
+                writelog("Event on Source: mouse pressed");
+
+                event.setDragDetect(true);
 
             }
 
         });
 
-        root.setCenter(button);
+        sourceFld.setOnMouseReleased(new EventHandler<MouseEvent>()
 
-        Scene scene = new Scene(root);
+        {
+
+            public void handle(MouseEvent event)
+
+            {
+
+                sourceFld.setMouseTransparent(false);
+
+                writelog("Event on Source: mouse released");
+
+            }
+
+        });
+
+        sourceFld.setOnMouseDragged(new EventHandler<MouseEvent>()
+
+        {
+
+            public void handle(MouseEvent event)
+
+            {
+
+                writelog("Event on Source: mouse dragged");
+
+                event.setDragDetect(false);
+
+            }
+
+        });
+
+        sourceFld.setOnDragDetected(new EventHandler<MouseEvent>()
+
+        {
+
+            public void handle(MouseEvent event)
+
+            {
+
+                sourceFld.startFullDrag();
+
+                writelog("Event on Source: drag detected");
+
+            }
+
+        });
+
+        // Add mouse event handlers for the target
+
+        targetFld.setOnMouseDragEntered(new EventHandler<MouseDragEvent>()
+
+        {
+
+            public void handle(MouseDragEvent event)
+
+            {
+
+                writelog("Event on Target: mouse dragged");
+
+            }
+
+        });
+
+        targetFld.setOnMouseDragOver(new EventHandler<MouseDragEvent>()
+
+        {
+
+            public void handle(MouseDragEvent event)
+
+            {
+
+                writelog("Event on Target: mouse drag over");
+
+            }
+
+        });
+
+        targetFld.setOnMouseDragReleased(new EventHandler<MouseDragEvent>()
+
+        {
+
+            public void handle(MouseDragEvent event)
+
+            {
+
+                targetFld.setText(sourceFld.getSelectedText());
+
+                writelog("Event on Target: mouse drag released");
+
+            }
+
+        });
+
+        targetFld.setOnMouseDragExited(new EventHandler<MouseDragEvent>()
+
+        {
+
+            public void handle(MouseDragEvent event)
+
+            {
+
+                writelog("Event on Target: mouse drag exited");
+
+            }
+
+        });
+
+        // Create the VBox
+
+        VBox root = new VBox();
+
+        // Add the Pane and The LoggingArea to the VBox
+
+        root.getChildren().addAll(pane, loggingArea);
+
+        // Set the Style of the VBox
+
+        root.setStyle("-fx-padding: 10;" +
+
+                "-fx-border-style: solid inside;" +
+
+                "-fx-border-width: 2;" +
+
+                "-fx-border-insets: 5;" +
+
+                "-fx-border-radius: 5;" +
+
+                "-fx-border-color: blue;");
+
+        // Create the Scene
+
+        Scene scene = new Scene(root, 300, 200);
+
+        // Add the Scene to the Stage
 
         stage.setScene(scene);
 
-        stage.setWidth(300);
+        // Set the Title
 
-        stage.setHeight(250);
+        stage.setTitle("A Press Drag Release Example");
+
+        // Display the Stage
 
         stage.show();
+
+    }
+
+    // Helper Method for Logging
+
+    private void writelog(String text)
+
+    {
+
+        this.loggingArea.appendText(text + "\n");
 
     }
 
