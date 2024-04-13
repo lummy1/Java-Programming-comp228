@@ -6,20 +6,20 @@
 
 ## Week 1
 
-- In-Class Exercises: [Addition](src/Module01)
+- In-Class Exercises: [Java Program](src/Module01)
 
 ## Week 2
 
-- In-Class Exercises: [Addition, Vehicle](src/Module02)
+- In-Class Exercises: [Objects, Classes, and Variables](src/Module02)
 - Labs: [Lab 1](https://github.com/ttran375/comp228-lab1)
 
 ## Week 3
 
-- In-Class Exercises: [Scope](src/Module03/Week3FinalDemos1), [MethodPrac1](src/Module03/Week3FinalDemos3), [MethodForms](src/Module03/Week3FinalDemos4), [MethodOlPrac, PassArray2](src/Module03/Week3FinalDemos5)
+- In-Class Exercises: [Methods and Programming Constructs](src/Module03)
 
 ## Week 4
 
-- In-Class Exercises: [Java Classes In Depth](src/Module04)
+- In-Class Exercises: [Classes In Depth](src/Module04)
 - Labs: [Lab 2](https://github.com/ttran375/comp228-lab2)
 
 ## Week 5
@@ -56,7 +56,7 @@
 
 ## Week 13
 
-- In-Class Exercises: [Multithreading](src/Module11)
+- In-Class Exercises: [Multi Thread](src/Module11)
 
 ## Week 14
 
