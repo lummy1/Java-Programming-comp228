@@ -39,7 +39,7 @@
 
 ## Week 9
 
-- In-Class Exercises: [MyJavaFx200](src/Module07/javafx1), [FlowPaneDemo](src/Module07/flowpanedemo), [ShowGridPane112, ShowBorderPane112, ShowCircle, ShowCircle2](src/Module07/application)
+- In-Class Exercises: [JavaFx](src/Module07/javafx1), [FlowPane](src/Module07/flowpanedemo), GridPane, BorderPane, GUI, GUI with Property Binding
 
 ## Week 10
 
